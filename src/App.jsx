@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div class="container">
+      <div className="container">
         <LanguageChooser />
       </div>
     </Router>

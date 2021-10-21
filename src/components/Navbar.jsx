@@ -5,7 +5,7 @@ function Navbar() {
   const { t } = useTranslation();
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div Class="container-fluid">
         <Link class="navbar-brand" to="/">
           {t("Navbar title")}
