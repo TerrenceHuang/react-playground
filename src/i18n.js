@@ -7,6 +7,7 @@ const resources = {
   en: {
     translation: {
       "Navbar title": "React Playground",
+      "Home title": "Home Component",
       Languages: "Languages",
       en: "English",
       "zh-TW": "Chinese",
@@ -15,6 +16,7 @@ const resources = {
   "zh-TW": {
     translation: {
       "Navbar title": "React 遊樂場",
+      "Home title": "主頁元件",
       Languages: "語言",
       en: "英文",
       "zh-TW": "中文",
