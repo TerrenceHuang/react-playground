@@ -1,6 +1,6 @@
 # React Playground
 
-An APP to test out the react ecosystem functionalities. Integrated with bootstrap 5, i18next.
+An APP to test out the react ecosystem functionalities. Integrated with Bootstrap 5, i18next, React Router.
 
 # Getting Started with Create React App
 
