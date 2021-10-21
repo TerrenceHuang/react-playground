@@ -1,18 +1,26 @@
-import { useTranslation } from "react-i18next";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Redirect } from "react-router-dom";
 
 import "./App.scss";
+import Home from "./components/Home";
 import LanguageChooser from "./components/LanguageChooser";
 import Navbar from "./components/Navbar";
 
 function App() {
-  const { t } = useTranslation();
-
   return (
     <Router>
       <Navbar />
-      <div className="container">
-        <LanguageChooser />
+      <div className="container pt-3">
+        <Switch>
+          <Router exact path="/">
+            <Home />
+          </Router>
+          <Router path="/languages">
+            <LanguageChooser />
+          </Router>
+          <Router>
+            <Redirect to="/" />
+          </Router>
+        </Switch>
       </div>
     </Router>
   );
