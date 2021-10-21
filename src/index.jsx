@@ -5,6 +5,7 @@ import * as bootstrap from "bootstrap";
 
 import "./custom.scss";
 import "./index.scss";
+import "./i18n";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
