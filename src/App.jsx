@@ -7,10 +7,10 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div class="container">
       <h1>{t("App Component title")}</h1>
       <LanguageChooser />
-    </>
+    </div>
   );
 }
 
