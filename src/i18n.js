@@ -6,14 +6,14 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      "App Component title": "App Component",
+      "Navbar title": "React Playground",
       en: "English",
       "zh-TW": "Chinese",
     },
   },
   "zh-TW": {
     translation: {
-      "App Component title": "應用元件",
+      "Navbar title": "React 遊樂場",
       en: "英文",
       "zh-TW": "中文",
     },

@@ -3,14 +3,15 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import "./App.scss";
 import LanguageChooser from "./components/LanguageChooser";
+import Navbar from "./components/Navbar";
 
 function App() {
   const { t } = useTranslation();
 
   return (
     <Router>
+      <Navbar />
       <div class="container">
-        <h1>{t("App Component title")}</h1>
         <LanguageChooser />
       </div>
     </Router>
