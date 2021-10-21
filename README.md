@@ -2,6 +2,8 @@
 
 An APP to test out the react ecosystem functionalities. Integrated with Bootstrap 5, i18next, React Router.
 
+Check here to see the [React Playground](https://terrencehuang.github.io/react-playground/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
