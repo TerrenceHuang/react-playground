@@ -1,25 +1,33 @@
-import { BrowserRouter as Router, Switch, Redirect } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
 import "./App.scss";
 import Home from "./components/Home";
 import LanguageChooser from "./components/LanguageChooser";
 import Navbar from "./components/Navbar";
 
+// TODO: Put to config, like homepage property in package.json
+const routeBasename = "/react-playground";
+
 function App() {
   return (
-    <Router>
+    <Router basename={routeBasename}>
       <Navbar />
       <div className="container pt-3">
         <Switch>
-          <Router exact path="/">
+          <Route exact path="/">
             <Home />
-          </Router>
-          <Router path="/languages">
+          </Route>
+          <Route path="/languages">
             <LanguageChooser />
-          </Router>
-          <Router>
+          </Route>
+          <Route>
             <Redirect to="/" />
-          </Router>
+          </Route>
         </Switch>
       </div>
     </Router>
