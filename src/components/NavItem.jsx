@@ -11,7 +11,7 @@ function NavItem({ pathname, textLanguageKey }) {
       <Link
         className={`nav-link ${location.pathname === pathname ? "active" : ""}`}
         aria-current={location.pathname === pathname ? "page" : ""}
-        to={textLanguageKey}
+        to={pathname}
       >
         {t(textLanguageKey)}
       </Link>
