@@ -5,7 +5,7 @@ import NavItemsToggler from "./NavItemsToggler";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div Class="container-fluid">
+      <div className="container-fluid">
         <NavbarBrand />
         <NavItemsToggler />
         <NavItems />

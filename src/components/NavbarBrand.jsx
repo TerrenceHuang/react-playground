@@ -5,7 +5,7 @@ function NavbarBrand() {
   const { t } = useTranslation();
 
   return (
-    <Link class="navbar-brand" to="/">
+    <Link className="navbar-brand" to="/">
       {t("Navbar title")}
     </Link>
   );
